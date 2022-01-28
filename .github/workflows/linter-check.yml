@@ -11,8 +11,8 @@ jobs:
       - name: Install dependencies
         run: |
           pip install poetry
-          make install
+          poetry install
       - name: Run linter
         run: |
           chmod +x brain_games/scripts/brain_games.py
-          make lint
+          poetry run flake8 brain_games
