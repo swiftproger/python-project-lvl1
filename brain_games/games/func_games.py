@@ -2,8 +2,8 @@
 import random
 
 
-def get_random_int():
-    return random.randint(1, 5)
+def get_random_int(num1=1, num2=5):
+    return random.randint(num1, num2)
 
 
 def result_game(count_question, gamer_name):
