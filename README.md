@@ -11,3 +11,6 @@ Second game: Brain-calc
 
 Third game: Brain-gcd
 [![asciicast](https://asciinema.org/a/GZNhBhLyBibctH2wJpXMCToIu.svg)](https://asciinema.org/a/GZNhBhLyBibctH2wJpXMCToIu)
+
+Fourth game: brain-progression
+[![asciicast](https://asciinema.org/a/tc28DGYsfVCFeeEEYjTMfiDXG.svg)](https://asciinema.org/a/tc28DGYsfVCFeeEEYjTMfiDXG)
