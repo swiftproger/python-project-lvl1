@@ -46,14 +46,12 @@ def main():
         correct_answer = task_round(count_question)
         answer = input()
         result_round = is_correct_answer(answer, correct_answer)
+        get_message_round(result_round, answer, correct_answer, name)
 
         if result_round:
-            get_message_round(result_round, answer, correct_answer, name)
+            count_question += 1
         else:
-            get_message_round(result_round, answer, correct_answer, name)
             break
-
-        count_question += 1
 
     result_game(count_question, name)
 
