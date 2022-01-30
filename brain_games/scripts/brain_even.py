@@ -9,7 +9,7 @@ def is_even(number) -> bool:
     return False
 
 
-def task_raund():
+def task_round():
     number = get_random_int()
     print('Question:', number)
     print('Your answer: ', end='')
@@ -42,7 +42,7 @@ def main():
     count_question = 0
 
     while count_question != 3:
-        number = task_raund()
+        number = task_round()
         answer = input()
         correct_answer = get_right_answer(number)
         result_round = is_correct_answer(answer, number)
