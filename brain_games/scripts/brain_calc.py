@@ -1,39 +1,40 @@
 #!/usr/bin/env python
+from brain_games.games.func_games import result_game, get_message_round, get_random_int, is_correct_answer
 from brain_games.cli import welcome_user
-from brain_games.games.func_games import result_game, get_message_round, get_random_int
 
 
-def is_even(number) -> bool:
-    if number % 2 == 0:
-        return True
-    return False
+def multiply_task(num1, num2):
+    return num1 * num2
 
 
-def task_raund():
-    number = get_random_int()
-    print('Question:', number)
-    print('Your answer: ', end='')
-    return number
+def deduction_task(num1, num2):
+    return num1 - num2
+
+
+def sum_task(num1, num2):
+    return num1 + num2
+
+
+def task_round(round):
+    number1 = get_random_int()
+    number2 = get_random_int()
+
+    if round == 0:
+        print(f'Question: {number1} + {number2}')
+        print('Your answer: ', end='')
+        return str(sum_task(number1, number2))
+    elif round == 1:
+        print(f'Question: {number1} - {number2}')
+        print('Your answer: ', end='')
+        return str(deduction_task(number1, number2))
+    elif round == 2:
+        print(f'Question: {number1} * {number2}')
+        print('Your answer: ', end='')
+        return str(multiply_task(number1, number2))
 
 
 def task_game():
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-
-
-def is_correct_answer(answer, task):
-    if answer == 'yes' and is_even(task):
-        return True
-    elif answer == 'no' and not is_even(task):
-        return True
-    else:
-        return False
-
-
-def get_right_answer(task):
-    if is_even(task):
-        return 'Yes'
-    else:
-        return 'No'
+    print('What is the result of the expression?')
 
 
 def main():
@@ -42,10 +43,9 @@ def main():
     count_question = 0
 
     while count_question != 3:
-        number = task_raund()
+        correct_answer = task_round(count_question)
         answer = input()
-        correct_answer = get_right_answer(number)
-        result_round = is_correct_answer(answer, number)
+        result_round = is_correct_answer(answer, correct_answer)
 
         if result_round:
             get_message_round(result_round, answer, correct_answer, name)
