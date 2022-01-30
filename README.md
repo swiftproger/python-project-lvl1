@@ -8,3 +8,6 @@ First game: Brain-even
 
 Second game: Brain-calc
 [![asciicast](https://asciinema.org/a/yFNW5aNcoyYub2rIFiVbCKc0m.svg)](https://asciinema.org/a/yFNW5aNcoyYub2rIFiVbCKc0m)
+
+Third game: Brain-gcd
+[![asciicast](https://asciinema.org/a/GZNhBhLyBibctH2wJpXMCToIu.svg)](https://asciinema.org/a/GZNhBhLyBibctH2wJpXMCToIu)
