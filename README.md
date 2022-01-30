@@ -14,3 +14,6 @@ Third game: Brain-gcd
 
 Fourth game: brain-progression
 [![asciicast](https://asciinema.org/a/tc28DGYsfVCFeeEEYjTMfiDXG.svg)](https://asciinema.org/a/tc28DGYsfVCFeeEEYjTMfiDXG)
+
+Fifth game: brain-prime
+[![asciicast](https://asciinema.org/a/FXPlufQATpDqhLmLMweDprJdA.svg)](https://asciinema.org/a/FXPlufQATpDqhLmLMweDprJdA)
