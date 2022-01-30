@@ -3,7 +3,7 @@ import random
 
 
 def get_random_int():
-    return random.randint(1, 29)
+    return random.randint(1, 5)
 
 
 def result_game(count_question, gamer_name):

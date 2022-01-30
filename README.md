@@ -5,3 +5,6 @@
 
 First game: Brain-even
 [![asciicast](https://asciinema.org/a/emc20XqqemLy6CLWSt0Tql6iO.svg)](https://asciinema.org/a/emc20XqqemLy6CLWSt0Tql6iO)
+
+Second game: Brain-calc
+[![asciicast](https://asciinema.org/a/yFNW5aNcoyYub2rIFiVbCKc0m.svg)](https://asciinema.org/a/yFNW5aNcoyYub2rIFiVbCKc0m)
