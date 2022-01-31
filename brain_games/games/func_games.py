@@ -9,8 +9,6 @@ def get_random_int(num1=1, num2=5):
 def result_game(count_question, gamer_name):
     if count_question == 3:
         print(f'Congratulations, {gamer_name}!')
-    else:
-        print('You lose!')
 
 
 def get_message_round(result_round, gamer_answer, correct_answer, gamer_name):
