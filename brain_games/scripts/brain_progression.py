@@ -1,6 +1,7 @@
 #!/usr/bin/env python
-from brain_games.games.func_games import *
 from brain_games.cli import welcome_user
+from brain_games.games.func_games \
+    import get_random_int, is_correct_answer, get_message_round, result_game
 
 
 def task_round():

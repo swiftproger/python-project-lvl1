@@ -15,7 +15,8 @@ def get_message_round(result_round, gamer_answer, correct_answer, gamer_name):
     if result_round:
         print('Correct!')
     else:
-        print(f'\'{gamer_answer}\' is wrong answer ;(. Correct answer was \'{correct_answer}\'.')
+        print(f'\'{gamer_answer}\' is wrong answer ;(. '
+              f'Correct answer was \'{correct_answer}\'.')
         print(f'Let\'s try again, {gamer_name}!')
 
 

@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 from brain_games.cli import welcome_user
-from brain_games.games.func_games import result_game, get_message_round, get_random_int
+from brain_games.games.func_games \
+    import result_game, get_message_round, get_random_int
 
 
 def is_prime(number):

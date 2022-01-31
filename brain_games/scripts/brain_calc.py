@@ -1,6 +1,7 @@
 #!/usr/bin/env python
-from brain_games.games.func_games import result_game, get_message_round, get_random_int, is_correct_answer
 from brain_games.cli import welcome_user
+from brain_games.games.func_games \
+    import result_game, get_message_round, get_random_int, is_correct_answer
 
 
 def multiply_task(num1, num2):
