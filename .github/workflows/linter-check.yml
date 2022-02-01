@@ -7,12 +7,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
         # make depends on poetry
       - name: Install dependencies
         run: |
           pip install poetry
-          poetry install
+          make install
       - name: Run linter
         run: |
           chmod +x brain_games/scripts/brain_games.py
-          poetry run flake8 brain_games
+          chmod +x brain_games/scripts/brain_even.py
+          chmod +x brain_games/scripts/brain_calc.py
+          chmod +x brain_games/scripts/brain_gcd.py
+          chmod +x brain_games/scripts/brain_progression.py
+          chmod +x brain_games/scripts/brain_prime.py
+          make lint
