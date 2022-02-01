@@ -38,11 +38,12 @@ def get_right_answer(task):
 
 
 def main():
+    round_count: int = 3
     name = welcome_user()
     task_game()
     count_question = 0
 
-    while count_question != 3:
+    for _ in range(0, round_count):
         number = task_round()
         answer = input()
         correct_answer = get_right_answer(number)
