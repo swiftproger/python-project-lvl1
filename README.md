@@ -17,3 +17,12 @@ Fourth game: brain-progression
 
 Fifth game: brain-prime
 [![asciicast](https://asciinema.org/a/FXPlufQATpDqhLmLMweDprJdA.svg)](https://asciinema.org/a/FXPlufQATpDqhLmLMweDprJdA)
+
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
